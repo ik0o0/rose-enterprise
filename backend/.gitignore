@@ -1,0 +1,118 @@
+## Enhanced .gitignore for ASP.NET Core Web API Projects (with SQLite in Development)
+## Based on: https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
+
+##############
+## BUILD OUTPUT
+##############
+[Bb]in/
+[Oo]bj/
+[Ll]og[s]*/
+artifacts/
+bld/
+*.dll
+*.exe
+
+##############
+## LOCK / CONFIG FILES
+##############
+project.lock.json
+project.fragment.lock.json
+
+##############
+## TARGET ARCHITECTURES
+##############
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+[Ww][Ii][Nn]32/
+
+##############
+## USER & LOCAL ENVIRONMENT SETTINGS
+##############
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+##############
+## IDEs (VS, VS Code, Rider)
+##############
+.vscode/
+.idea/
+*.sln.iml
+
+##############
+## TEMP FILES, LOGS, MISC
+##############
+*.log
+[Ll]og[s]*/
+[Tt]est[Rr]esult*/ 
+[Bb]uild[Ll]og.*
+*.tmp
+*.bak
+*.cache
+~$*
+*~
+
+##############
+## TOOLS: dotCover, Coverlet, SonarQube, etc.
+##############
+coverage/
+.coverage
+*.coveragexml
+*.codecov
+TestResults/
+*.lcov
+.sonar/
+.nuxt/
+.nyc_output/
+
+##############
+## .NET / NuGet
+##############
+*.nupkg
+*.snupkg
+*.symbols.nupkg
+.nuget/
+packages/
+*.deps.json
+*.runtimeconfig.json
+
+##############
+## ASP.NET Core
+##############
+ScaffoldingReadMe.txt
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+##############
+## SQLITE (Dev-only)
+##############
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+##############
+## MSBUILD LOGS
+##############
+*.binlog
+
+##############
+## TESTING (NUnit, MSTest, xUnit)
+##############
+*.trx
+*.coverage
+*.testhost.dll
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+
+##############
+## DOTNET WATCH / HOT RELOAD
+##############
+**/obj/**/generated/

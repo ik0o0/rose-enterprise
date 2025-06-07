@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
-using backend.database;
+using backend.Database;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.FileProviders;
 
